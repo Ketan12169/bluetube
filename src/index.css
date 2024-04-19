@@ -1,0 +1,144 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+.f {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 113, 113);
+  border-radius: 10px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.category-btn:hover {
+  background-color: #039dfc !important;
+  color: white !important;
+}
+
+.category-btn:hover span {
+  color: white !important;
+}
+
+.VideoCard:hover {
+  transform: scale(1.07);
+  -webkit-box-shadow: 1px -1px 26px 10px rgba(255, 255, 255, 0.36);
+  -moz-box-shadow: 1px -1px 26px 10px rgba(255, 255, 255, 0.36);
+  box-shadow: 1px -1px 26px 10px rgba(255, 255, 255, 0.36);
+}
+.VideoCard:hover {
+  transform: scale(1.07);
+  -webkit-box-shadow: 1px -1px 26px 10px rgba(255, 255, 255, 0.36);
+  -moz-box-shadow: 1px -1px 26px 10px rgba(255, 255, 255, 0.36);
+  box-shadow: 1px -1px 26px 10px rgba(255, 255, 255, 0.36);
+}
+.VideoCard {
+}
+
+.react-player {
+  height: 73vh !important;
+  width: 92% !important;
+  display: block;
+  margin: auto;
+}
+.likes {
+  margin-top: -11px;
+}
+.logo {
+  margin-top: 4px;
+}
+.bluetube {
+  color: #039dfc;
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  margin-left: 7px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+.categoryButton {
+  width: 100%;
+  height: 100%;
+}
+.bluetube1 {
+  color: #ffffff;
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+.category-btn {
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+  .category-btn {
+    margin: 10px;
+  }
+}
+@media screen and (max-width: 751px) {
+  .bluetube {
+    display: none;
+  }
+  .bluetube1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .copyright {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar {
+    width: 200px;
+  }
+}
